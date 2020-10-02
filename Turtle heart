@@ -1,0 +1,28 @@
+import turtle
+wn = turtle.Screen()
+import turtle
+
+wn.bgcolor("yellow")          
+
+elan = turtle.Turtle()
+elan.color("red")             
+elan.pensize(5)
+tess = turtle.Turtle()
+tess.color("blue")             
+tess.pensize(5)
+elan.left(45)
+elan.forward(50)
+elan.left(45)
+elan.forward(25)
+elan.left(90)
+elan.forward(25)
+elan.left(45)
+elan.forward(25)
+tess.right(220)
+tess.forward(50)
+tess.right(45)
+tess.forward(25)
+tess.right(90)
+tess.forward(25)
+tess.right(45)
+tess.forward(25)
